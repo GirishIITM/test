@@ -2,8 +2,8 @@ name: Log ISS Location Data Daily
 
 on:
   schedule:
-    # Runs at 12:00 UTC (noon) every day
-    - cron: "0 12 * * *"
+    # Runs at 10:57 UTC (morning) every day
+    - cron: "57 10 * * *"
   workflow_dispatch: # Allows manual triggering
 
 jobs:
